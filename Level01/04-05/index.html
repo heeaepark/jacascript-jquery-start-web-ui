@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./alert.css">
+</head>
+<body>
+    <div>
+        <div class="alert-box" id="alert">
+            <span id="txt">Alert 박스</span>
+            <button class="close" onclick="alert('none');">닫기</button>
+        </div>
+        <button onclick="alert('block');">버튼</button>
+    </div>
+    <script>
+        function alert(parm) {
+            document.getElementById('alert').style.display = parm;
+        }
+
+    </script>
+</body>
+</html>

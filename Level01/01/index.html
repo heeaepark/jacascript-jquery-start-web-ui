@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트의 목적과 셀렉터</title>
+</head>
+<body>
+    <h2 id="hello">안녕하세요.</h2>
+    <h2 id="nicetomeet">만나서 반가워요</h2>
+
+
+    <script>
+        "use srtict";
+
+        document.getElementById("hello").innerHTML = 'Hello World!';
+        document.getElementById("hello").style.fontSize = '30px';
+        document.getElementById("nicetomeet").innerHTML = 'Nice to meet you!';
+    </script>
+</body>
+</html>

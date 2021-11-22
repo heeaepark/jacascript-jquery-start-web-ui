@@ -1,0 +1,11 @@
+.alert-box {
+    background-color: rgb(161, 225, 255);
+    color: rgb(31, 95, 190);
+    padding: 8px;
+    display: none;
+}
+
+.close {
+    float: right;
+    color: rgb(31, 95, 190);
+}
